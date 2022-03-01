@@ -1,7 +1,8 @@
-package com.example.tmdbclient.data.repository.movie
+package com.example.tmdbclient.data.repository.movie.datasourceImpl
 
 import com.example.tmdbclient.data.api.TMDBService
 import com.example.tmdbclient.data.api.model.movie.MovieList
+import com.example.tmdbclient.data.repository.movie.datasource.MoviesRemoteDatasource
 import retrofit2.Response
 
 class MovieRemoteDataSourceImpl(
